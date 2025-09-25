@@ -15,7 +15,7 @@ suggests that the price premium associated with good seller reputations is linke
 to a more competitive bidding approach, even though the number of bidders
 remains relatively constant.
 
-# Research Questions
+## Research Questions
 
 Main Research Question:
 How does seller reputation influence auction outcomes in the eBay car market?
@@ -33,3 +33,7 @@ binomial.
 
 ## Data
 The data was collected through web scraping, using a Python scraper with BeautifulSoup to extract product links and Octoparse to gather technical characteristics, auction details, and seller ratings. The dataset covers UK used-car auctions that ended between 17 July and 17 August 2023. During data cleaning, listings marked “spare or repair,” prematurely terminated auctions, commercial vehicles, cars manufactured before 1990, and body types outside Hatchback, Coupe, Saloon, Convertible, Estate, and SUV were excluded. Only the top 15 car brands (≥100 observations each) were retained to reduce heterogeneity and facilitate regression analysis. Finally, items priced below £300 (mostly car parts) were removed.
+
+
+
+
